@@ -1,0 +1,12 @@
+.img-background {
+    background-image: url("../images/1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.img-logo{
+    width: 56px;
+}
+h2{
+    font-size: calc(14px + 0.9vw);
+}
