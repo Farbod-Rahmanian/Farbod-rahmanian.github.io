@@ -10,3 +10,6 @@
 h2{
     font-size: calc(14px + 0.9vw);
 }
+h2 , h3 , p{
+    font-family: "Roboto", sans-serif;
+}
