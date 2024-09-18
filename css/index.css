@@ -13,3 +13,20 @@ h2{
 h2 , h3 , p{
     font-family: "Roboto", sans-serif;
 }
+.custom-margin{
+    margin-left: 80px;
+}
+.px-icon{
+    height: 50px;
+}
+.m-left{
+    margin-left: 50px;
+}
+.c-width{
+    width: calc(25vw);
+    height: 45px;
+}
+.c-width-b{
+    height: 45px;
+}
+
