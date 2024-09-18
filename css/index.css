@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 .img-background {
     background-image: url("../images/1.jpeg");
     background-size: cover;
@@ -19,6 +23,12 @@ h2 , h3 , p{
 .px-icon{
     height: 50px;
 }
+.custom-margin1{
+    margin-top: 200px;
+}
+.m-t{
+    margin-top: 150px;
+}
 .m-left{
     margin-left: 50px;
 }
@@ -29,4 +39,3 @@ h2 , h3 , p{
 .c-width-b{
     height: 45px;
 }
-
