@@ -59,3 +59,13 @@ p {
 .bg-img {
     background-image: url("../images/9.jpg");
 }
+.circle-but{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+.img-1-2{
+    background-image: url("../images/1.jpeg");
+}
