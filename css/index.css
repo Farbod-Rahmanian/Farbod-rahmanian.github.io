@@ -75,3 +75,12 @@ p {
 .padding-custom1{
     padding-top: 100px;
 }
+.padding-custom2{
+    padding: 64px 0px;
+}
+.font-size-custom{
+    font-size: calc(32px + 2vw);
+}
+.custom-font-size{
+    font-size: 12px;
+}
