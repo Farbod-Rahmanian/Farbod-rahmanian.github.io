@@ -20,10 +20,24 @@
 </head>
 
 <body>
-    <div class="container-fluid px-0">
-        <div class="row mx-0 img-background">
-            <div class="col-12 px-0">
-                <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid px-0 ">
+        <div class="row mx-0 ">
+            <div class="img-background d-flex">
+                <div class="col-12 d-flex flex-column pt-5 justify-content-evenly">
+                    <div class="col-10 offset-1">
+                        <h2 class="text-center text-white">In the dance of existence, gratitude is the melody that
+                            transforms life’s moments into a symphony of joy.
+                        </h2>
+                    </div>
+                    <div class="col-4 offset-sm-4 offset-3">
+                        <div class=" col-7 offset-5 ">
+                            <img src="images/2.png" class="img-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 px-0 position-fixed z-3">
+                <nav class="navbar navbar-expand-lg bg-custom">
                     <div class="container-fluid">
                         <a class="navbar-brand mx-auto" href="#"><img src="images/Name-logo.png" class="logo-pix"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -31,8 +45,8 @@
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="offcanvas offcanvas-start text-bg-secondary w-100 overflow-y-auto" tabindex="-1"
-                            id="navbarSupportedContent" aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas offcanvas-start  d-lg-none text-bg-secondary w-100 overflow-y-auto"
+                            tabindex="-1" id="navbarSupportedContent" aria-labelledby="offcanvasExampleLabel">
                             <div class="offcanvas-header">
                                 <img src="images/2.png" class="img-logo col-2">
                                 <img src="images/Name-logo.png" class="logo-pix offset-2 offset-md-4">
@@ -69,9 +83,9 @@
                                     <div id="collapseTwo" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <a href="#" class="text-white">About(Template 1)</a>
+                                            <a href="#" class="text-white text-opacity-25">About(Template 1)</a>
                                             <hr>
-                                            <a href="pages/page2.html">About(Template 2)</a>
+                                            <a href="pages/page2.html" class="text-white">About(Template 2)</a>
                                             <hr>
                                             <a href="#" class="text-white">Contact</a>
                                         </div>
@@ -177,101 +191,96 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle ms-2 text-secondary" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Home Layout
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Home page(Template 1)</a></li>
-                                        <li><a class="dropdown-item" href="#">Home page(Template 2)</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle ms-2 text-secondary" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Info Pages
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">About(Template 1)</a></li>
-                                        <li><a class="dropdown-item" href="pages/page2.html">About(Template 2)</a>
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Contact</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle ms-2 text-secondary" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        pages
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">SERVICES</a></li>
-                                        <li><a class="dropdown-item" href="#">Podcast</a></li>
-                                        <li><a class="dropdown-item" href="#">Freebies</a></li>
-                                        <li><a class="dropdown-item" href="#">Coming Soon</a></li>
-                                        <li><a class="dropdown-item" href="#">FAQs</a></li>
-                                        <li><a class="dropdown-item" href="#">Instagram Link</a></li>
-                                        <li><a class="dropdown-item" href="#">Newsletter</a></li>
-                                        <li><a class="dropdown-item" href="#">Testimonials</a></li>
-                                        <li><a class="dropdown-item" href="#">Price List</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle ms-2 text-secondary" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Portfolio
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Portfolio Archive Layout</a></li>
-                                        <li><a class="dropdown-item" href="#">Single Project Layout</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle ms-2 text-secondary" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Blog
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Post Archive Layout</a></li>
-                                        <li><a class="dropdown-item" href="#">Single Post Layout</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle ms-2 text-secondary" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Shop
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Product Archive Layout</a></li>
-                                        <li><a class="dropdown-item" href="#">Single Product Layout</a></li>
-                                        <li><a class="dropdown-item" href="#">My Account</a></li>
-                                        <li><a class="dropdown-item" href="#">CheckOut</a></li>
-                                        <li><a class="dropdown-item" href="#">Cart</a></li>
-                                    </ul>
-                                </li>
-                                <a href="#" class="mt-2"><i class="bi bi-cart2 mt-2 ms-3"></i></a>
-                                <button type="button" class="btn btn-outline-secondary ms-5">More about me<i
-                                        class="bi bi-arrow-right"></i>
-                                </button>
-                            </ul>
+                        <div class="collapse navbar-collapse d-none d-lg-flex justify-content-center"
+                            id="navbarSupportedContent">
+                            <div>
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle ms-2 text-white" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Home Layout
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Home page(Template 1)</a></li>
+                                            <li><a class="dropdown-item" href="#">Home page(Template 2)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle ms-2 text-white" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Info Pages
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">About(Template 1)</a></li>
+                                            <li><a class="dropdown-item" href="pages/page2.html">About(Template 2)</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle ms-2 text-white" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            pages
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">SERVICES</a></li>
+                                            <li><a class="dropdown-item" href="#">Podcast</a></li>
+                                            <li><a class="dropdown-item" href="#">Freebies</a></li>
+                                            <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                            <li><a class="dropdown-item" href="#">FAQs</a></li>
+                                            <li><a class="dropdown-item" href="#">Instagram Link</a></li>
+                                            <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                                            <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                                            <li><a class="dropdown-item" href="#">Price List</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle ms-2 text-white" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Portfolio
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Portfolio Archive Layout</a></li>
+                                            <li><a class="dropdown-item" href="#">Single Project Layout</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle ms-2 text-white" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Blog
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Post Archive Layout</a></li>
+                                            <li><a class="dropdown-item" href="#">Single Post Layout</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle ms-2 text-white" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Shop
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Product Archive Layout</a></li>
+                                            <li><a class="dropdown-item" href="#">Single Product Layout</a></li>
+                                            <li><a class="dropdown-item" href="#">My Account</a></li>
+                                            <li><a class="dropdown-item" href="#">CheckOut</a></li>
+                                            <li><a class="dropdown-item" href="#">Cart</a></li>
+                                        </ul>
+                                    </li>
+                                    <a href="#" class="mt-2 text-white"><i class="bi bi-cart2 mt-2 ms-3"></i></a>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-none d-lg-flex justify-content-start">
+                            <button type="button" class="btn btn-outline-light">More about me<i
+                                    class="bi bi-arrow-right"></i>
+                            </button>
                         </div>
                     </div>
                 </nav>
             </div>
-            <div class="col-12 d-flex flex-column pt-5 justify-content-evenly">
-                <div class="col-4 offset-4">
-                    <h2 class="text-center text-white">In the dance of existence, gratitude is the melody that
-                        transforms life’s moments into a symphony of joy.
-                    </h2>
-                </div>
-                <div class="col-4 offset-sm-4 offset-3">
-                    <div class=" col-7 offset-5 ">
-                        <img src="images/2.png" class="img-logo">
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
     <div class="container-fluid">
@@ -321,47 +330,50 @@
         </div>
     </div>
     <div class="container-fluid bg-secondary bg-opacity-25">
-        <div class="row ">
-            <div class="col-md-5 col-12 m-left mb-5 custom-margin1">
-                <p class="text-uppercase">Newsletter</p>
-                <h2 class="my-3 pb-4 pb-md-0 fs-1 fw-bold">Keep in touch</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+        <div class="row">
+            <div class="col-12 col-xl-5 m-left mb-5 custom-margin1 text-lg-center text-xl-start">
+                <p class="text-uppercase  col-lg-10 offset-lg-1">Newsletter</p>
+                <h2 class=" col-lg-10 offset-lg-1 my-3 pb-4 pb-lg-0 fs-1 fw-bold">Keep in touch</h2>
+                <p class="col-lg-10 offset-lg-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium,
                     totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
                     dicta sunt explicabo.</p>
             </div>
-            <div
-                class="col-md-6 col-12 d-flex justify-content-around align-items-center ms-md-5 mb-md-5 custom-margin2 flex-wrap">
-                <div class="col-md-6 col-12 d-block">
+            <form action="#" method="get" autocomplete="off"
+                class="col-xl-6 col-12 d-flex justify-content-around align-items-center mb-xl-5 custom-margin2 flex-wrap float-xl-start">
+                <div class="col-12 col-lg-4 offset-lg-3 offset-xl-0 d-block">
                     <label class="col-12" for="email-add">Email <span class="text-danger">*</span></label>
-                    <input type="email" name="mailAddress" class="c-width" minlength="5" maxlength="30" id="email-add">
+                    <input class="c-width" type="email" id="email-add" name="mailAddress" minlength="5" maxlength="30"
+                        required>
                 </div>
-                <div class="col-md-4 col-12">
-                    <button type="button" class="btn btn-dark mt-4 c-width-b ">SUBMIT</button>
+                <div class="col-12 col-lg-4 col-xl-3 offset-xl-2">
+                    <button type="submit" class="btn btn-dark mt-4 c-width-b ">SUBMIT</button>
                 </div>
-            </div>
-            <div class="col-md-6 col-10 offset-1 offset-md-0 px-0 py-5 py-md-0 my-5 my-md-0"><img src="images/5.jpeg"
+            </form>
+            <div class="col-lg-6 col-10 offset-1 offset-lg-0 px-0 py-5 my-5"><img src="images/5.jpeg"
                     class="w-100 rounded-2">
             </div>
-            <div class="col-10 offset-1 offset-md-0 col-md-5 ms-md-5 d-flex flex-column justify-content-evenly">
-                <div class="pb-5 pb-md-0">
+            <div
+                class="col-10 offset-1 offset-lg-0 col-lg-5 ms-lg-5 my-xl-5 py-xl-5 d-flex flex-column justify-content-evenly">
+                <div class="pb-5 pb-lg-0">
                     <h2 class="fs-1">My values</h2>
                 </div>
-                <div class="pb-5 pb-md-0">
-                    <h3 class="pb-3 pb-md-0">I’m an honest person.</h3>
+                <div class="pb-5 pb-lg-0">
+                    <h3 class="pb-3 pb-lg-0">I’m an honest person.</h3>
                     <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et
                         voluptates repudiandae sint et molestiae non recusandae.</p>
                 </div>
-                <div class="pb-5 pb-md-0">
-                    <h3 class="pb-3 pb-md-0">Simplicity is the basis of all my work.</h3>
+                <div class="pb-5 pb-lg-0">
+                    <h3 class="pb-3 pb-lg-0">Simplicity is the basis of all my work.</h3>
                     <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et
                         voluptates repudiandae sint et molestiae non recusandae.</p>
                 </div>
-                <div class="pb-5 pb-md-0">
-                    <h3 class="pb-3 pb-md-0">I like kind people.</h3>
+                <div class="pb-5 pb-lg-0">
+                    <h3 class="pb-3 pb-lg-0">I like kind people.</h3>
                     <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et
                         voluptates repudiandae sint et molestiae non recusandae.</p>
                 </div>
-                <div class="pb-5 pb-md-0">
+                <div class="pb-5 pb-lg-0">
                     <a href="#" class="text-black ">view my offerings<i class="bi bi-arrow-up-short"></i></a>
                 </div>
             </div>
@@ -370,22 +382,22 @@
                 <h2 class="fs-1 fw-bold">I try to tell our stories with the passion that distinguishes me</h2>
             </div>
             <div class="col-12 d-flex text-center justify-content-center flex-wrap mt-5">
-                <a href="#" class="col-md-3 col-10 offset-1 offset-md-0">
-                    <article class="col-md-10 col-11">
+                <a href="#" class="col-md-4 offset-md-1 col-xl-3 col-10 offset-1 offset-xl-0">
+                    <article class="col-xl-10 col-md-11 col-11">
                         <img src="images/6.jpeg" class="w-100 rounded-3">
                         <p class="fw-semibold text-center pt-3">Ut enim ad minima veniam, quis nostrum exercitationem
                             ullam corporis suscipit laboriosam</p>
                     </article>
                 </a>
-                <a href="#" class="col-md-3 col-10 offset-1 offset-md-0">
-                    <article class="col-md-10 col-11">
+                <a href="#" class="col-md-4 offset-md-2 col-xl-3 col-10 offset-1 offset-xl-0">
+                    <article class="col-xl-10 col-md-11 col-11">
                         <img src="images/7.jpeg" class="w-100 rounded-3">
                         <p class="fw-semibold text-center pt-3">Neque porro quisquam est, qui dolorem ipsum quia dolor
                             sit amet</p>
                     </article>
                 </a>
-                <a href="#" class="col-md-3 col-10 offset-1 offset-md-0">
-                    <article class="col-md-10 col-11">
+                <a href="#" class="col-md-4 col-xl-3 col-10 offset-1 offset-xl-0 pt-lg-5 pt-xl-0">
+                    <article class="col-xl-10 col-md-11 col-11">
                         <img src="images/8.jpeg" class="w-100 rounded-3">
                         <p class="fw-semibold text-center pt-3">Temporibus autem quibusdam et aut officiis debitis aut
                             rerum necessitatibus saepe eveniet</p>
@@ -425,41 +437,40 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col px-0">
-                <!-- <div class="col-12 d-flex  position-absolute text-center justify-content-center z-1">
-                    <h3>KEY WORD</h3>
-                </div> -->
-
-                <div id="carouselExampleCaptions" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            aria-current="true" aria-label="Slide 1" class="circle-but active"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2" class="circle-but"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3" class="circle-but"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <img src="images/1.jpeg" class="d-flex position-relative w-100">
-
-                        <div class="carousel-item active">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
+        <div class="row img-background1 d-flex flex-column justify-content-center">
+            <div class="col-12">
+                <div class="col-12 d-flex justify-content-center mb-custom1">
+                    <h4 class="fs-1">Kinds Word</h4>
+                </div>
+                <div>
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-inner t">
+                            <div class="carousel-item active custom-h">
+                                <div class="carousel-caption py-0 font-s">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item custom-h">
+                                <div class="carousel-caption pb-0 font-s">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item custom-h">
+                                <div class="carousel-caption pb-0 font-s">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
+                        <div class="carousel-indicators z-1">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                aria-current="true" aria-label="Slide 1" class="circle-but active"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2" class="circle-but"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3" class="circle-but"></button>
                         </div>
                     </div>
                 </div>
@@ -467,7 +478,7 @@
         </div>
     </div>
     <footer>
-        <div class="container-fluid bg-secondary bg-opacity-50 ">
+        <div class="container-fluid bg-secondary bg-opacity-50">
             <div class="row custom-h">
                 <div class="col-10 offset-1 d-flex align-items-center justify-content-center justify-content-md-start">
                     <a href="#" class="fs-5 fw-bold">Are you ready to work together?
