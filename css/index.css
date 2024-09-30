@@ -93,6 +93,7 @@ p {
 }
 .bg-img1 {
     background-image: url("../images/13.jpg");
+    height: 500px;
 }
 
 .circle-but {
